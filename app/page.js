@@ -42,14 +42,39 @@ const data = [
     "description": "There is just a freshness about this building. It really does have a calming effect. You can try it and thank me."
   },
   {
-    "title": "Memorial Union",
-    "image": '/mu.jpg',
-    "description": "The Curse: U step on it, u fail ur next exam."
+    "title": "Rush hour",
+    "image": '/rush.jpg',
+    "description": "The Rush Hour between Classes in the Gerdin business building on a regular day."
   },
   {
-    "title": "Gerdin kingland Hub",
-    "image": '/gerdin-kingland.jpg',
-    "description": "A hub for studying in the business building. With a design that really inspires learning."
+    "title": "Computer Engineering TLA",
+    "image": '/tla.jpg',
+    "description": "Computer Engineering TLA. This is d CPRE hub."
+  },
+  {
+    "title": "CPRE 381",
+    "image": '/381.jpg',
+    "description": " CPRE 381: The hardest class in this school. To anyone who has passed this class. You guys are the real heroes. "
+  },
+  {
+    "title": "College of Design",
+    "image": '/arch.jpg',
+    "description": "College of Design: The hub in college of design. It is one of the most inspiring places in school."
+  },
+  {
+    "title": "Brewery Class",
+    "image": '/brewery.jpg',
+    "description": "One of the funnest electives at Iowa State. You learn the process of making bear in the agricultural tech building. I will advice anyone to take it.."
+  },
+  {
+    "title": "Armory",
+    "image": '/armory.jpg',
+    "description": "The Armory Marketplace: It is such a unique space. It has become a room for a lot of design students with differeent eworkshops in the building."
+  },
+  {
+    "title": "Lagomarcino",
+    "image": '/lagomarcino.jpg',
+    "description": "Lagomarcino: It really is just a really special vibe building. Akot of secret places. Personally, jusat a favorite of mine."
   },
 ]
 
@@ -72,6 +97,7 @@ export default function Home() {
     </>
   )
 }
+
 
 function Section({ item }){
   return(
